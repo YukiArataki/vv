@@ -5,5 +5,6 @@ leia os valores de dois números inteiros distintos nasvariáveis A e B e inform
 Caso os números sejam iguais informarao usuário que a sequência de números informados é inválida */
 
 public class Exercio3 {
+    
 
 }
