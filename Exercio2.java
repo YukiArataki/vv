@@ -8,7 +8,7 @@ public class Exercio2 {
 
         Scanner leitor = new Scanner(System.in);
 
-        System.out.println("Digite o primeiro número:  ");
+        System.out.println("Digite o primeiro número: ");
         int n1 = Integer.parseInt(leitor.nextLine());
 
         System.out.println("Digite o segundo número: ");
