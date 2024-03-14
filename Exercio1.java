@@ -6,4 +6,23 @@ caso este número seja menor ou igual*/
 
 public class Exercio1 {
 
+    public static void main(String[] args) {
+
+        Scanner leitor = new Scanner(System.in);
+
+        System.out.print("Digite um número: ");
+        int numero = leitor.nextInt();
+
+        if ( numero > 10) {
+            System.out.println("O número digitado é maior que 10.");
+        }else if ( numero < 10) {
+            System.out.println("O número digitado é menor que 10.");
+        }else {
+            System.out.println("O número digitado é igual a 10.");
+        }
+
+        leitor.close();
+        
+    }
+
 }
