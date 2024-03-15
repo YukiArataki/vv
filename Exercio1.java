@@ -6,7 +6,7 @@ caso este número seja menor ou igual*/
 
 public class Exercio1 {
 
-    public static void main(String[] args) {
+    public static void executar() {
 
         Scanner leitor = new Scanner(System.in);
 

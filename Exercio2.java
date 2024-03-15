@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Exercio2 {
 
-    public static void main(String[] args) {
+    public static void executar() {
 
         Scanner leitor = new Scanner(System.in);
 

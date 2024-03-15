@@ -5,7 +5,7 @@ A fórmula de conversão é: F = (9 * C + 160) /5 */
 
 public class Exercio6 {
 
-    public static void main(String[] args) {
+    public static void executar() {
         
         Scanner leitor = new Scanner(System.in);
         double Celsius, Fahrenheit;
