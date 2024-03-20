@@ -6,7 +6,7 @@ Volume = 4710 */
 
 public class Exercio19 {
 
-    public static void main(String[] args) {
+    public static void executar(){
         
         Scanner leitor = new Scanner(System.in); 
 

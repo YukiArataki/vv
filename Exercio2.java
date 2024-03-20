@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-/*2. Escreva um algoritmo que leia dois números digitados pelo usuário e exiba oresultado da sua soma. */
+/*2. Escreva um algoritmo que leia dois números digitados pelo usuário e exiba o resultado da sua soma. */
 
 public class Exercio2 {
 

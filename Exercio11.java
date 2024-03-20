@@ -4,19 +4,36 @@ import java.util.Scanner;
 
 public class Exercio11 {
 
-    public static void main(String[] args){
+    public static void executar(){
 
         Scanner leitor = new Scanner(System.in);
 
-        long a, b, c;
+        int a, b, c;
 
-        System.out.println("Digite um número ");
-        a = leitor.nextLong();
-        System.out.println("Digite outro número");
-        b = leitor.nextLong();
-        System.out.println("Digite mais um número");
-        c = leitor.nextLong();
+        System.out.println("Digite o primeiro número ");
+        a = leitor.nextInt();
 
+        System.out.println("Digite o segundo número");
+        b = leitor.nextInt();
+
+        System.out.println("Digite o terceiro número");
+        c = leitor.nextInt();
+
+        if (a < b) {
+            if (b < c) {
+                System.out.println(a + "\n" + b + "\n" + c);
+            }
+            else if (a < c) {
+                System.out.println(a + "\n" + c + "\n" + b);
+            }else {
+                System.out.println(c + "\n" + a + "\n" + b);
+            }
+        }
+         else if (b < c) {
+            if (a < c) {
+                System.out.println(a + "\n" + b + "\n" + c);
+            }
+         }
         
     }
 

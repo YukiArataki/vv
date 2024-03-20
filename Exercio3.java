@@ -6,11 +6,19 @@ Caso os números sejam iguais informar ao usuário que a sequência de números 
 
 public class Exercio3 {
     
-    public static void executar() {
+    public static void main(String[] args) {
 
         Scanner leitor = new Scanner(System.in);
+        
+        System.out.println("Digite o primeiro número:  ");
+        int a = Integer.parseInt(leitor.nextLine());
 
+        System.out.println("Digite o segundo número: ");
+        int b = Integer.parseInt(leitor.nextLine());
 
+        int maior = (a > b);
+
+        
     }
 
 }
