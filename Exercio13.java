@@ -10,6 +10,47 @@ public class Exercio13 {
     public static void executar() {
 
         Scanner leitor = new Scanner(System.in);
+
+        System.out.print("Digite o valor de A: ");
+        double A = leitor.nextDouble();
+
+        System.out.print("Digite o valor de B: ");
+        double B = leitor.nextDouble();
+
+        System.out.print("Digite o operador (+, -, *, /): ");
+        char operador = leitor.next().charAt(0);
+
+        double resultado = 0;
+        boolean operacaoValida = true;
+
+        switch (operador) {
+            case '+':
+                resultado = A + B;
+                break;
+            case '-':
+                resultado = A - B;
+                break;
+            case '*':
+                resultado = A * B;
+                break;
+            case '/':
+                if (B != 0) {
+                    resultado = A / B;
+                } else {
+                    System.out.println("Erro: Divisão por zero!");
+                    operacaoValida = false;
+                }
+                break;
+            default:
+                System.out.println("Operador não definido!");
+                operacaoValida = false;
+        }
+
+        if (operacaoValida) {
+            System.out.println("Resultado: " + resultado);
+        }
+
+        leitor.close();
     }
 
 }

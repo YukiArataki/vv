@@ -18,4 +18,5 @@ public class Exercio2 {
 
         System.out.println("A soma dos dois valores é: " + soma);
   }
-    }
+
+}

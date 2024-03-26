@@ -21,7 +21,7 @@ public class Exercio19 {
         System.out.println("Informe a altura");
         altura = leitor.nextDouble();
 
-        volume = v * (r*r) * altura;
+        volume = v * (r * r) * altura;
 
         System.out.println("O valor do volume de lata de óleo é" + volume);
     }
